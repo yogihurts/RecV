@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="20dp"
     >
 
  <EditText
      android:id="@+id/editText"
      android:layout_width="match_parent"
-     android:textColor="@android:color/black"
+     android:textColor="@android:color/purple"
      android:textColorHint="@android:color/black"
      android:text="@string/restaurant_mcdonalds"
      android:hint="@string/type_name"
@@ -22,7 +22,8 @@
      android:layout_height="wrap_content"
      android:layout_alignParentEnd="true"
      android:layout_alignParentRight="true"
-     android:text="@string/search" />
+     android:text="@string/search"
+     />
 
  <android.support.v7.widget.RecyclerView
      android:layout_height="match_parent"
